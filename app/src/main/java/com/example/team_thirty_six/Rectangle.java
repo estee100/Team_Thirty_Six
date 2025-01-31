@@ -1,15 +1,23 @@
 package com.example.team_thirty_six;
 
 public class Rectangle extends Shape {
-    private final int area;
 
-    public Rectangle(int x, int y) {
-        super(x, y);
-        this.area = x*y;
+    private double height;
+    private double width;
+
+    public double getHeight() {
+        return height;
     }
 
-    public int getArea() {
-        return area;
+    public void setHeight(double height) {
+        this.height = height;
     }
 
+    public double getWidth() {
+        return width;
+    }
+
+    public void setWidth(double width) {
+        this.width = width;
+    }
 }
