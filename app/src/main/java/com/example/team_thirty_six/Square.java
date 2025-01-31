@@ -1,6 +1,6 @@
 package com.example.team_thirty_six;
 
-public class Rectangle extends Shape {
+public class Square extends Shape {
 
     private double height;
     private double width;
