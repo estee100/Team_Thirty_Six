@@ -2,7 +2,6 @@ package com.example.team_thirty_six;
 
 public class Rectangle extends Shape {
 
-
     private double height;
     private double width;
 
